@@ -1,0 +1,79 @@
+{
+  "props": [
+    {
+      "name": "Content font",
+      "type": "fontfamily",
+      "value": "Inter",
+      "category": "fontfamily",
+      "meta": {
+        "projectId": "gVLjp5jEanpB9JmP1wfhu5",
+        "id": "M00QQJ94J"
+      }
+    },
+    {
+      "name": "H1",
+      "type": "fontsize",
+      "value": "38px",
+      "category": "fontsize",
+      "meta": {
+        "projectId": "gVLjp5jEanpB9JmP1wfhu5",
+        "id": "ACcCzbVBE"
+      }
+    },
+    {
+      "name": "H2",
+      "type": "fontsize",
+      "value": "20px",
+      "category": "fontsize",
+      "meta": {
+        "projectId": "gVLjp5jEanpB9JmP1wfhu5",
+        "id": "W4LiE1-ZA"
+      }
+    },
+    {
+      "name": "H3",
+      "type": "fontsize",
+      "value": "14px",
+      "category": "fontsize",
+      "meta": {
+        "projectId": "gVLjp5jEanpB9JmP1wfhu5",
+        "id": "JuTZk8G3F"
+      }
+    },
+    {
+      "name": "H4",
+      "type": "fontsize",
+      "value": "12px",
+      "category": "fontsize",
+      "meta": {
+        "projectId": "gVLjp5jEanpB9JmP1wfhu5",
+        "id": "PEnMn1KOT"
+      }
+    },
+    {
+      "name": "Heading font",
+      "type": "fontfamily",
+      "value": "Poppins",
+      "category": "fontfamily",
+      "meta": {
+        "projectId": "gVLjp5jEanpB9JmP1wfhu5",
+        "id": "cFJFk8VmS"
+      }
+    },
+    {
+      "name": "UnnamedStyleToken",
+      "type": "spacing",
+      "value": "1px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "gVLjp5jEanpB9JmP1wfhu5",
+        "id": "2FbltXZC9"
+      }
+    }
+  ],
+  "global": {
+    "meta": {
+      "source": "plasmic.app"
+    }
+  }
+}

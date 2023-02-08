@@ -1,0 +1,733 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "caTPwKxj5ZrD9LQ7DMdK4Z",
+      "projectApiToken": "vXGGQpdi9fhcncabBdg8DcMRUbkz0iRW6HS1jzQufQR6QH0MasPwr9SX7ap4SsK3xXwwXmzZtglWGe0Rm2nw",
+      "projectName": "plasmic-basic-components",
+      "version": "3.11.0",
+      "cssFilePath": "plasmic/plasmic_basic_components/plasmic_plasmic_basic_components.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "CMDBvOhaI4s",
+          "name": "Iframe",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "RhitNJW5Zu-",
+          "name": "Video",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "PKldDYkH42",
+          "name": "Embed",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "D4RbnlpRXg3",
+          "name": "DataProvider",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        }
+      ]
+    },
+    {
+      "projectId": "8PtdGodUbexNYgkuyBUcWu",
+      "projectApiToken": "34o5R5KswluuZ4sD83F88oQrcLWsNNeUpCptQ8Okf4hYqgjnHnX2idGAlhtB7WWQQelNAInf5XFazR1cGw",
+      "projectName": "plasmic-embed-css",
+      "version": "3.8.0",
+      "cssFilePath": "plasmic/plasmic_embed_css/plasmic_plasmic_embed_css.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "plasmic/plasmic_embed_css/PlasmicGlobalContextsProvider.jsx",
+      "codeComponents": [
+        {
+          "id": "qF0uJxFztB",
+          "name": "EmbedCss",
+          "componentImportPath": "@plasmicpkgs/plasmic-embed-css"
+        }
+      ]
+    },
+    {
+      "projectId": "28Ba3BDvRe7EiWdfFNnLB6",
+      "projectApiToken": "DWg4EVpu2l6n6fAdMDCvE22FFoWH1NK3ZmqmXnzezysh5ZWic03cixuobavnSG7W2O29VnLlgnyQp1TAijQ",
+      "projectName": "antd",
+      "version": "2.12.2",
+      "cssFilePath": "plasmic/antd/plasmic_antd.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "kv6Mk_JNYw",
+          "name": "Button",
+          "componentImportPath": "antd/lib/button"
+        },
+        {
+          "id": "iBC45mjTXv",
+          "name": "Slider",
+          "componentImportPath": "@plasmicpkgs/antd/skinny/registerSlider"
+        },
+        {
+          "id": "tRueht1jub",
+          "name": "Switch",
+          "componentImportPath": "antd/lib/switch"
+        },
+        {
+          "id": "YRr0RPAdEj",
+          "name": "Option",
+          "componentImportPath": "rc-select"
+        },
+        {
+          "id": "Ay1H491feg",
+          "name": "OptGroup",
+          "componentImportPath": "rc-select"
+        },
+        {
+          "id": "2YpGIhkzkpc",
+          "name": "Select",
+          "componentImportPath": "antd/lib/select"
+        },
+        {
+          "id": "yegZ392NLoV",
+          "name": "CollapsePanel",
+          "componentImportPath": "antd/lib/collapse/CollapsePanel"
+        },
+        {
+          "id": "F10gpQ1ZhXY",
+          "name": "Collapse",
+          "componentImportPath": "@plasmicpkgs/antd/skinny/registerCollapse"
+        },
+        {
+          "id": "SAEWraOT2YV",
+          "name": "Checkbox",
+          "componentImportPath": "antd/lib/checkbox/Checkbox"
+        },
+        {
+          "id": "m5zFS-kMOL-",
+          "name": "CheckboxGroup",
+          "componentImportPath": "antd/lib/checkbox/Group"
+        },
+        {
+          "id": "6DZuSUEKjFh",
+          "name": "MenuDivider",
+          "componentImportPath": "antd/lib/menu/MenuDivider"
+        },
+        {
+          "id": "HZ6EmQgIQJr",
+          "name": "MenuItem",
+          "componentImportPath": "antd/lib/menu/MenuItem"
+        },
+        {
+          "id": "LGE6ExNG8fZ",
+          "name": "ItemGroup",
+          "componentImportPath": "rc-menu"
+        },
+        {
+          "id": "DSwQm8gUYob",
+          "name": "SubMenu",
+          "componentImportPath": "antd/lib/menu/SubMenu"
+        },
+        {
+          "id": "Iz_hLKpHZDg",
+          "name": "Menu",
+          "componentImportPath": "antd/lib/menu/index"
+        },
+        {
+          "id": "_C8wcdH3BDp",
+          "name": "Carousel",
+          "componentImportPath": "antd/lib/carousel"
+        },
+        {
+          "id": "tO9wrxr8Nbb",
+          "name": "Input",
+          "componentImportPath": "antd/lib/input"
+        },
+        {
+          "id": "ZJIPHLoTjkN",
+          "name": "TextArea",
+          "componentImportPath": "antd/lib/input/TextArea"
+        },
+        {
+          "id": "zDcn8vsMldu",
+          "name": "Search",
+          "componentImportPath": "antd/lib/input/Search"
+        },
+        {
+          "id": "fTDg0FM1tnD",
+          "name": "Password",
+          "componentImportPath": "antd/lib/input/Password"
+        },
+        {
+          "id": "uZueUXuqePq",
+          "name": "InputGroup",
+          "componentImportPath": "antd/lib/input/Group"
+        },
+        {
+          "id": "cv59X4q0WK",
+          "name": "Dropdown",
+          "componentImportPath": "@plasmicpkgs/antd/skinny/registerDropdown"
+        },
+        {
+          "id": "cHUYQj2aKK",
+          "name": "DropdownButton",
+          "componentImportPath": "antd/lib/dropdown/dropdown-button"
+        },
+        {
+          "id": "p3HNI5RglT",
+          "name": "TabPane",
+          "componentImportPath": "rc-tabs"
+        },
+        {
+          "id": "Hb-DVgvuk3",
+          "name": "Tabs",
+          "componentImportPath": "@plasmicpkgs/antd/skinny/registerTabs"
+        },
+        {
+          "id": "Q0BhxRa-Moi",
+          "name": "Rate",
+          "componentImportPath": "antd/lib/rate"
+        },
+        {
+          "id": "LF24IrAPbeRN",
+          "name": "TableWrapper",
+          "componentImportPath": "@plasmicpkgs/antd/skinny/registerTable"
+        },
+        {
+          "id": "qJFaUEuzy9Ae",
+          "name": "TableColumn",
+          "componentImportPath": "@plasmicpkgs/antd/skinny/registerTable"
+        },
+        {
+          "id": "aOob39p1-Dlv",
+          "name": "TableValue",
+          "componentImportPath": "@plasmicpkgs/antd/skinny/registerTable"
+        }
+      ]
+    },
+    {
+      "projectId": "gVLjp5jEanpB9JmP1wfhu5",
+      "projectApiToken": "vSlPhJztnp42AChA5bweD75izJG09vjDk7yAvGGPioXmttYGNChmr20ImMKhWgMsCrOejw5lYgjWJVZyMJXT5A",
+      "projectName": "Zaviago React Builder",
+      "version": "latest",
+      "cssFilePath": "plasmic/zaviago_react_builder/plasmic_zaviago_react_builder.module.css",
+      "components": [
+        {
+          "id": "NsgmzO0LTwr1",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "gVLjp5jEanpB9JmP1wfhu5",
+          "renderModuleFilePath": "plasmic/zaviago_react_builder/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "Homepage.jsx"
+          },
+          "cssFilePath": "plasmic/zaviago_react_builder/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "KEqtb6YfMi",
+          "name": "ButtonsWithIcon",
+          "type": "managed",
+          "projectId": "gVLjp5jEanpB9JmP1wfhu5",
+          "renderModuleFilePath": "plasmic/zaviago_react_builder/PlasmicButtonsWithIcon.jsx",
+          "importSpec": {
+            "modulePath": "ButtonsWithIcon.jsx"
+          },
+          "cssFilePath": "plasmic/zaviago_react_builder/PlasmicButtonsWithIcon.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "VEoZuKV-qCO",
+          "name": "TextInput",
+          "type": "managed",
+          "projectId": "gVLjp5jEanpB9JmP1wfhu5",
+          "renderModuleFilePath": "plasmic/zaviago_react_builder/PlasmicTextInput.jsx",
+          "importSpec": {
+            "modulePath": "TextInput.jsx"
+          },
+          "cssFilePath": "plasmic/zaviago_react_builder/PlasmicTextInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "text-input"
+        },
+        {
+          "id": "II68hkYzZ61",
+          "name": "Switch",
+          "type": "managed",
+          "projectId": "gVLjp5jEanpB9JmP1wfhu5",
+          "renderModuleFilePath": "plasmic/zaviago_react_builder/PlasmicSwitch.jsx",
+          "importSpec": {
+            "modulePath": "Switch.jsx"
+          },
+          "cssFilePath": "plasmic/zaviago_react_builder/PlasmicSwitch.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "switch"
+        },
+        {
+          "id": "I-YmR_8FdnC",
+          "name": "Select",
+          "type": "managed",
+          "projectId": "gVLjp5jEanpB9JmP1wfhu5",
+          "renderModuleFilePath": "plasmic/zaviago_react_builder/PlasmicSelect.jsx",
+          "importSpec": {
+            "modulePath": "Select.jsx"
+          },
+          "cssFilePath": "plasmic/zaviago_react_builder/PlasmicSelect.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "select"
+        },
+        {
+          "id": "bpAVT12l6AT",
+          "name": "Select__Option",
+          "type": "managed",
+          "projectId": "gVLjp5jEanpB9JmP1wfhu5",
+          "renderModuleFilePath": "plasmic/zaviago_react_builder/PlasmicSelect__Option.jsx",
+          "importSpec": {
+            "modulePath": "Select__Option.jsx"
+          },
+          "cssFilePath": "plasmic/zaviago_react_builder/PlasmicSelect__Option.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "select-option"
+        },
+        {
+          "id": "zEYCwWZ-pv4",
+          "name": "Select__OptionGroup",
+          "type": "managed",
+          "projectId": "gVLjp5jEanpB9JmP1wfhu5",
+          "renderModuleFilePath": "plasmic/zaviago_react_builder/PlasmicSelect__OptionGroup.jsx",
+          "importSpec": {
+            "modulePath": "Select__OptionGroup.jsx"
+          },
+          "cssFilePath": "plasmic/zaviago_react_builder/PlasmicSelect__OptionGroup.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "select-option-group"
+        },
+        {
+          "id": "wPKn7yeZD86",
+          "name": "Select__Overlay",
+          "type": "managed",
+          "projectId": "gVLjp5jEanpB9JmP1wfhu5",
+          "renderModuleFilePath": "plasmic/zaviago_react_builder/PlasmicSelect__Overlay.jsx",
+          "importSpec": {
+            "modulePath": "Select__Overlay.jsx"
+          },
+          "cssFilePath": "plasmic/zaviago_react_builder/PlasmicSelect__Overlay.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "triggered-overlay"
+        },
+        {
+          "id": "_wX2WPNtDD",
+          "name": "SettingBusinessInfo",
+          "type": "managed",
+          "projectId": "gVLjp5jEanpB9JmP1wfhu5",
+          "renderModuleFilePath": "plasmic/zaviago_react_builder/PlasmicSettingBusinessInfo.jsx",
+          "importSpec": {
+            "modulePath": "SettingBusinessInfo.jsx"
+          },
+          "cssFilePath": "plasmic/zaviago_react_builder/PlasmicSettingBusinessInfo.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "OiEpCGxwidZ",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "gVLjp5jEanpB9JmP1wfhu5",
+          "renderModuleFilePath": "plasmic/zaviago_react_builder/PlasmicButton.jsx",
+          "importSpec": {
+            "modulePath": "Button.jsx"
+          },
+          "cssFilePath": "plasmic/zaviago_react_builder/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "8hZ_Y94beo",
+          "name": "Btn",
+          "type": "managed",
+          "projectId": "gVLjp5jEanpB9JmP1wfhu5",
+          "renderModuleFilePath": "plasmic/zaviago_react_builder/PlasmicBtn.jsx",
+          "importSpec": {
+            "modulePath": "Btn.jsx"
+          },
+          "cssFilePath": "plasmic/zaviago_react_builder/PlasmicBtn.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "_KYDKTjdvI",
+          "name": "SettingPagePayment",
+          "type": "managed",
+          "projectId": "gVLjp5jEanpB9JmP1wfhu5",
+          "renderModuleFilePath": "plasmic/zaviago_react_builder/PlasmicSettingPagePayment.jsx",
+          "importSpec": {
+            "modulePath": "SettingPagePayment.jsx"
+          },
+          "cssFilePath": "plasmic/zaviago_react_builder/PlasmicSettingPagePayment.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "t50HH_W00Q",
+          "name": "EmailSettings",
+          "type": "managed",
+          "projectId": "gVLjp5jEanpB9JmP1wfhu5",
+          "renderModuleFilePath": "plasmic/zaviago_react_builder/PlasmicEmailSettings.jsx",
+          "importSpec": {
+            "modulePath": "EmailSettings.jsx"
+          },
+          "cssFilePath": "plasmic/zaviago_react_builder/PlasmicEmailSettings.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "UMqlp2mbKI",
+          "name": "SettingPagePaymentCod",
+          "type": "managed",
+          "projectId": "gVLjp5jEanpB9JmP1wfhu5",
+          "renderModuleFilePath": "plasmic/zaviago_react_builder/PlasmicSettingPagePaymentCod.jsx",
+          "importSpec": {
+            "modulePath": "SettingPagePaymentCod.jsx"
+          },
+          "cssFilePath": "plasmic/zaviago_react_builder/PlasmicSettingPagePaymentCod.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "-1iTkAPyym",
+          "name": "PaymentMethodDirectBank",
+          "type": "managed",
+          "projectId": "gVLjp5jEanpB9JmP1wfhu5",
+          "renderModuleFilePath": "plasmic/zaviago_react_builder/PlasmicPaymentMethodDirectBank.jsx",
+          "importSpec": {
+            "modulePath": "PaymentMethodDirectBank.jsx"
+          },
+          "cssFilePath": "plasmic/zaviago_react_builder/PlasmicPaymentMethodDirectBank.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "xKf7GNmvC6",
+          "name": "EmailNewOrder",
+          "type": "managed",
+          "projectId": "gVLjp5jEanpB9JmP1wfhu5",
+          "renderModuleFilePath": "plasmic/zaviago_react_builder/PlasmicEmailNewOrder.jsx",
+          "importSpec": {
+            "modulePath": "EmailNewOrder.jsx"
+          },
+          "cssFilePath": "plasmic/zaviago_react_builder/PlasmicEmailNewOrder.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "acQs1zUUSO5",
+          "name": "EmailOptions",
+          "type": "managed",
+          "projectId": "gVLjp5jEanpB9JmP1wfhu5",
+          "renderModuleFilePath": "plasmic/zaviago_react_builder/PlasmicEmailOptions.jsx",
+          "importSpec": {
+            "modulePath": "EmailOptions.jsx"
+          },
+          "cssFilePath": "plasmic/zaviago_react_builder/PlasmicEmailOptions.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "jzUfIEfVTpU",
+          "name": "Checkbox",
+          "type": "managed",
+          "projectId": "gVLjp5jEanpB9JmP1wfhu5",
+          "renderModuleFilePath": "plasmic/zaviago_react_builder/PlasmicCheckbox.jsx",
+          "importSpec": {
+            "modulePath": "Checkbox.jsx"
+          },
+          "cssFilePath": "plasmic/zaviago_react_builder/PlasmicCheckbox.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "checkbox"
+        },
+        {
+          "id": "erDyGRWQ4s",
+          "name": "CouponPage",
+          "type": "managed",
+          "projectId": "gVLjp5jEanpB9JmP1wfhu5",
+          "renderModuleFilePath": "plasmic/zaviago_react_builder/PlasmicCouponPage.jsx",
+          "importSpec": {
+            "modulePath": "CouponPage.jsx"
+          },
+          "cssFilePath": "plasmic/zaviago_react_builder/PlasmicCouponPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "vedSlFGWec7",
+          "name": "CouponPageAddCoupon",
+          "type": "managed",
+          "projectId": "gVLjp5jEanpB9JmP1wfhu5",
+          "renderModuleFilePath": "plasmic/zaviago_react_builder/PlasmicCouponPageAddCoupon.jsx",
+          "importSpec": {
+            "modulePath": "CouponPageAddCoupon.jsx"
+          },
+          "cssFilePath": "plasmic/zaviago_react_builder/PlasmicCouponPageAddCoupon.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "5UJc9QYjU5",
+          "name": "LineOa",
+          "type": "managed",
+          "projectId": "gVLjp5jEanpB9JmP1wfhu5",
+          "renderModuleFilePath": "plasmic/zaviago_react_builder/PlasmicLineOa.jsx",
+          "importSpec": {
+            "modulePath": "LineOa.jsx"
+          },
+          "cssFilePath": "plasmic/zaviago_react_builder/PlasmicLineOa.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "yb5pEuxDn",
+          "name": "VectorIcon",
+          "moduleFilePath": "plasmic/zaviago_react_builder/icons/PlasmicIcon__Vector.jsx"
+        },
+        {
+          "id": "kYLBy02GU3",
+          "name": "Vector2Icon",
+          "moduleFilePath": "plasmic/zaviago_react_builder/icons/PlasmicIcon__Vector2.jsx"
+        },
+        {
+          "id": "X3Hb9awko",
+          "name": "Line48Icon",
+          "moduleFilePath": "plasmic/zaviago_react_builder/icons/PlasmicIcon__Line48.jsx"
+        },
+        {
+          "id": "aZ3Cuno_KTq",
+          "name": "SearchsvgIcon",
+          "moduleFilePath": "plasmic/zaviago_react_builder/icons/PlasmicIcon__Searchsvg.jsx"
+        },
+        {
+          "id": "rDkz_xdeJbB",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/zaviago_react_builder/icons/PlasmicIcon__Checksvg.jsx"
+        },
+        {
+          "id": "2wDxeWxwZeV",
+          "name": "ChevronDownsvgIcon",
+          "moduleFilePath": "plasmic/zaviago_react_builder/icons/PlasmicIcon__ChevronDownsvg.jsx"
+        },
+        {
+          "id": "hazIDmPDlTU",
+          "name": "ChevronUpsvgIcon",
+          "moduleFilePath": "plasmic/zaviago_react_builder/icons/PlasmicIcon__ChevronUpsvg.jsx"
+        },
+        {
+          "id": "9PWw2RrCoUo",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/zaviago_react_builder/icons/PlasmicIcon__Icon.jsx"
+        },
+        {
+          "id": "ghfrvXPxoN",
+          "name": "IconsvgIcon",
+          "moduleFilePath": "plasmic/zaviago_react_builder/icons/PlasmicIcon__Iconsvg.jsx"
+        },
+        {
+          "id": "hp4GC7HYRS",
+          "name": "EditsvgIcon",
+          "moduleFilePath": "plasmic/zaviago_react_builder/icons/PlasmicIcon__Editsvg.jsx"
+        },
+        {
+          "id": "7zeOQd0aRb",
+          "name": "XmarksvgIcon",
+          "moduleFilePath": "plasmic/zaviago_react_builder/icons/PlasmicIcon__Xmarksvg.jsx"
+        },
+        {
+          "id": "n9UjLXd7LK",
+          "name": "ApprovesvgIcon",
+          "moduleFilePath": "plasmic/zaviago_react_builder/icons/PlasmicIcon__Approvesvg.jsx"
+        },
+        {
+          "id": "BBR0nV4ct8",
+          "name": "EllipsissvgIcon",
+          "moduleFilePath": "plasmic/zaviago_react_builder/icons/PlasmicIcon__Ellipsissvg.jsx"
+        },
+        {
+          "id": "1HUfCwX0U",
+          "name": "DotsvgIcon",
+          "moduleFilePath": "plasmic/zaviago_react_builder/icons/PlasmicIcon__Dotsvg.jsx"
+        },
+        {
+          "id": "N-SmLg9e4x",
+          "name": "SettingsvgIcon",
+          "moduleFilePath": "plasmic/zaviago_react_builder/icons/PlasmicIcon__Settingsvg.jsx"
+        },
+        {
+          "id": "eR53YtoLkRw",
+          "name": "SquaresvgIcon",
+          "moduleFilePath": "plasmic/zaviago_react_builder/icons/PlasmicIcon__Squaresvg.jsx"
+        },
+        {
+          "id": "RHihXoVA4rJ",
+          "name": "SquareCheckFilledsvgIcon",
+          "moduleFilePath": "plasmic/zaviago_react_builder/icons/PlasmicIcon__SquareCheckFilledsvg.jsx"
+        },
+        {
+          "id": "dNmDIZA_2eS",
+          "name": "SquareMinussvgIcon",
+          "moduleFilePath": "plasmic/zaviago_react_builder/icons/PlasmicIcon__SquareMinussvg.jsx"
+        },
+        {
+          "id": "a2Cxnl6KFA",
+          "name": "BoxCheckedsvgIcon",
+          "moduleFilePath": "plasmic/zaviago_react_builder/icons/PlasmicIcon__BoxCheckedsvg.jsx"
+        },
+        {
+          "id": "G6eebdJE1u",
+          "name": "BoxDefaultsvgIcon",
+          "moduleFilePath": "plasmic/zaviago_react_builder/icons/PlasmicIcon__BoxDefaultsvg.jsx"
+        },
+        {
+          "id": "5kq2bAObJw",
+          "name": "BoxMinussvgIcon",
+          "moduleFilePath": "plasmic/zaviago_react_builder/icons/PlasmicIcon__BoxMinussvg.jsx"
+        },
+        {
+          "id": "K3BJz0Ncnf",
+          "name": "Line52SvgIcon",
+          "moduleFilePath": "plasmic/zaviago_react_builder/icons/PlasmicIcon__Line52Svg.jsx"
+        },
+        {
+          "id": "kQTrm3WIo",
+          "name": "SearchBoldsvgIcon",
+          "moduleFilePath": "plasmic/zaviago_react_builder/icons/PlasmicIcon__SearchBoldsvg.jsx"
+        },
+        {
+          "id": "_Z1N82Qm4",
+          "name": "FiltersvgIcon",
+          "moduleFilePath": "plasmic/zaviago_react_builder/icons/PlasmicIcon__Filtersvg.jsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "dxD_U0aH6",
+          "name": "image 113",
+          "filePath": "plasmic/zaviago_react_builder/images/image113.png"
+        },
+        {
+          "id": "qkXe29FEgs",
+          "name": "image 114",
+          "filePath": "plasmic/zaviago_react_builder/images/image114.png"
+        },
+        {
+          "id": "ytniV-5S5v",
+          "name": "image 115",
+          "filePath": "plasmic/zaviago_react_builder/images/image115.png"
+        },
+        {
+          "id": "e7HLxeBGc2",
+          "name": "image 116",
+          "filePath": "plasmic/zaviago_react_builder/images/image116.png"
+        },
+        {
+          "id": "jZnt0KwTP",
+          "name": "Frame",
+          "filePath": "plasmic/zaviago_react_builder/images/frame.svg"
+        },
+        {
+          "id": "9G5_HuZ-S",
+          "name": "Frame.png",
+          "filePath": "plasmic/zaviago_react_builder/images/framepng.png"
+        },
+        {
+          "id": "qpMvVUojHj",
+          "name": "Frame.svg",
+          "filePath": "plasmic/zaviago_react_builder/images/framesvg.svg"
+        },
+        {
+          "id": "4TaN_ZkEY",
+          "name": "Frame.svg 2",
+          "filePath": "plasmic/zaviago_react_builder/images/framesvg2.svg"
+        },
+        {
+          "id": "-ea_gE4Db",
+          "name": "Frame (1).svg",
+          "filePath": "plasmic/zaviago_react_builder/images/frame1Svg.svg"
+        },
+        {
+          "id": "2vJQTKHxb",
+          "name": "Icon trash.svg",
+          "filePath": "plasmic/zaviago_react_builder/images/iconTrashsvg.svg"
+        },
+        {
+          "id": "uDMUwPfLI",
+          "name": "image 14.svg",
+          "filePath": "plasmic/zaviago_react_builder/images/image14Svg.svg"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "plasmic/zaviago_react_builder/PlasmicGlobalContextsProvider.jsx",
+      "codeComponents": [
+        {
+          "id": "VCPDj15i7Z",
+          "name": "PlasmicHead",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "ueSf1QOWLC",
+          "name": "Fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ]
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "JC9LY7hCOQCLV",
+        "name": "Screen",
+        "projectId": "gVLjp5jEanpB9JmP1wfhu5",
+        "contextFilePath": "plasmic/zaviago_react_builder/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "cliVersion": "0.1.209",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.209/dist/plasmic.schema.json"
+}
